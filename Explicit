@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        double doubleNumber = 10.5;
+        int intNumber = (int) doubleNumber;
+        System.out.println("Double to Int: " + doubleNumber + " -> " + intNumber);
+
+        int intValue = 20;
+        double doubleValue = (double) intValue;
+        System.out.println("Int to Double: " + intValue + " -> " + doubleValue);
+
+        char charValue = 'A';
+        int asciiValue = (int) charValue;
+        System.out.println("Char to Int (ASCII): " + charValue + " -> " + asciiValue);
+    }
+}
