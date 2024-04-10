@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        System.out.println("First: " + numbers[0] + ", Second: " + numbers[1] + ", Last: " + numbers[numbers.length - 1]);
+        numbers[2] = 10;
+        for (int number : numbers) System.out.print(number + " ");
+        System.out.println();
+        
+        String[] names = {"Alice", "Bob", "Charlie", "David"};
+        for (String name : names) System.out.println(name);
+    }
+}
